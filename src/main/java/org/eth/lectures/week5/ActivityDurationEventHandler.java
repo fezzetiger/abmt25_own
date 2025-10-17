@@ -23,11 +23,6 @@ public class ActivityDurationEventHandler implements ActivityEndEventHandler, Ac
 
 	@Override
 	public void handleEvent(ActivityEndEvent event) {
-		double duration = event.getTime();
-		if(duration > 0.0) {
-			totalDuration += duration;
-			activityCount++;
-		}
 	}
 
 	@Override
@@ -44,3 +39,9 @@ public class ActivityDurationEventHandler implements ActivityEndEventHandler, Ac
 	}
 
 }
+
+// also include the ID of the person that started this activity
+// use a map to store the start time of each person's activity (interface, hasmap is implementation)
+// Map<Id<Person>, Double> startTimes = new HashMap<>();
+// startTimes.put(event.getPersonId(), event.getTime());
+// next time we can obtain the start time by using the person's ID
