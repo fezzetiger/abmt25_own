@@ -1,0 +1,71 @@
+{
+    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
+    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
+    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ControllerExample",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week2.ControllerExample",
+            "projectName": "demo",
+            "args": [""]
+        },
+        {
+            "type": "java",
+            "name": "MinimalRun",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week2.MinimalRun",
+            "projectName": "demo",
+            "args": [""]
+        },
+        {
+            "type": "java",
+            "name": "RunMatsimUtils",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week2.RunMatsimUtils",
+            "projectName": "demo",
+            "args": ["scenarios/SiouxFalls/config_default.xml"]
+        },
+        {
+            "type": "java",
+            "name": "RunSimulationObjects",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week2.RunSimulationObjects",
+            "projectName": "demo",
+            "args": ["scenarios/SiouxFalls/config_default.xml"]
+        },
+        {
+            "type": "java",
+            "name": "IOUtilsExtractActivities",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week3.IOUtilsExtractActivities",
+            "projectName": "demo",
+            "args": [""]
+        },
+        {
+            "type": "java",
+            "name": "IOUtilsExtractTrips",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week3.IOUtilsExtractTrips",
+            "projectName": "demo",
+            "args": ["output3/output_plans.xml.gz"]
+        },
+        {
+            "type": "java",
+            "name": "RunMatsimUtils(1)",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week3.RunMatsimUtils",
+            "projectName": "demo",
+            "args": [""]
+        }
+    ]
+}

@@ -14,7 +14,7 @@ public class RunSimulationObjects {
     public static void main(String[] args) {
 
         // 1) Config laden (RELATIVER Pfad)
-        String configPath = "scenarios/SiouxFalls/config_default.xml";
+        String configPath = args[0];
         Config config = ConfigUtils.loadConfig(configPath);
 
         System.out.println("********************************************************************************");
@@ -23,7 +23,7 @@ public class RunSimulationObjects {
         // 2) Config anpassen (hier: 1 Iteration, eigener Output-Ordner, Overwrite an)
         config.controller().setLastIteration(1);
         config.controller().setOutputDirectory("output2");
-        config.controller().setOverwriteFileSetting(OverwriteFileSetting.deleteDirectoryIfExists);
+        // config.controller().setOverwriteFileSetting(OverwriteFileSetting.deleteDirectoryIfExists);
 
         // 3) Beispiel: Verkehrsfluss skalieren (QSim-FlowCapFactor, z.B. 80% der Kapazität)
         config.qsim().setFlowCapFactor(0.8);
@@ -40,6 +40,8 @@ public class RunSimulationObjects {
 
         // 6) Controller bauen und Simulation starten
         Controler controller = new Controler(scenario);
+    
+        // config.controller().setLastIteration(1);
         controller.run();
     }
 }

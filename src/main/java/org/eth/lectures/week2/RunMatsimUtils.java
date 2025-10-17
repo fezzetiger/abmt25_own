@@ -21,11 +21,11 @@ public class RunMatsimUtils {
         // ---------- 1) Config & Scenario vorbereiten ----------
         // Pfad via Program Arguments übergeben (Run Configuration):
         // Program argument: scenarios/SiouxFalls/config_default.xml
-        String configPath = "scenarios/SiouxFalls/config_default.xml";
+        String configPath = args[0];
 
         Config config = ConfigUtils.loadConfig(configPath);
         config.controller().setOutputDirectory("output1");
-        config.controller().setOverwriteFileSetting(OverwriteFileSetting.deleteDirectoryIfExists);
+        // config.controller().setOverwriteFileSetting(OverwriteFileSetting.deleteDirectoryIfExists);
         config.controller().setLastIteration(1);
 
         Scenario scenario = ScenarioUtils.loadScenario(config);

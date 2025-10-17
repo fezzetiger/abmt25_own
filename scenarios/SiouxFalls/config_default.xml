@@ -119,7 +119,7 @@
 		<parameterset type="strategysettings">
 			<param name="strategyName" value="ReRoute"/>
 			<param name="disableAfterIteration" value="2900" />
-			<param name="weight" value="0.01"/>
+			<param name="weight" value="0.01"/> 
 		</parameterset>
 
 		<parameterset type="strategysettings">
