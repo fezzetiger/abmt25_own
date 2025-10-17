@@ -1,4 +1,4 @@
-package org.eth.week5.exercises.example;
+package org.eth.lectures.week5;
 
 import org.matsim.core.api.experimental.events.EventsManager;
 import org.matsim.core.events.EventsUtils;

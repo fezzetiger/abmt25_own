@@ -4,7 +4,30 @@
     // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "RunProcessEvents",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week5.RunProcessEvents",
+            "projectName": "demo",
+            "args": ["output/siouxfalls-2014/output_events.xml.gz"]
+        },
+        {
+            "type": "java",
+            "name": "RunSimulation",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week5.RunSimulation",
+            "projectName": "demo",
+            "args": ["scenarios/SiouxFalls/config_default.xml"]
+        },
+        {
+            "type": "java",
+            "name": "RunSimulationWithEvents",
+            "request": "launch",
+            "mainClass": "org.eth.lectures.week5.RunSimulationWithEvents",
+            "projectName": "demo",
+            "args": ["scenarios/SiouxFalls/config_default.xml"]
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -25,7 +48,9 @@
             "request": "launch",
             "mainClass": "org.eth.lectures.week2.MinimalRun",
             "projectName": "demo",
-            "args": [""]
+            "args": [
+                ""
+            ]
         },
         {
             "type": "java",
@@ -33,7 +58,9 @@
             "request": "launch",
             "mainClass": "org.eth.lectures.week2.RunMatsimUtils",
             "projectName": "demo",
-            "args": ["scenarios/SiouxFalls/config_default.xml"]
+            "args": [
+                "scenarios/SiouxFalls/config_default.xml"
+            ]
         },
         {
             "type": "java",
@@ -41,7 +68,9 @@
             "request": "launch",
             "mainClass": "org.eth.lectures.week2.RunSimulationObjects",
             "projectName": "demo",
-            "args": ["scenarios/SiouxFalls/config_default.xml"]
+            "args": [
+                "scenarios/SiouxFalls/config_default.xml"
+            ]
         },
         {
             "type": "java",
@@ -49,7 +78,9 @@
             "request": "launch",
             "mainClass": "org.eth.lectures.week3.IOUtilsExtractActivities",
             "projectName": "demo",
-            "args": [""]
+            "args": [
+                ""
+            ]
         },
         {
             "type": "java",
@@ -57,7 +88,9 @@
             "request": "launch",
             "mainClass": "org.eth.lectures.week3.IOUtilsExtractTrips",
             "projectName": "demo",
-            "args": ["output3/output_plans.xml.gz"]
+            "args": [
+                "output3/output_plans.xml.gz"
+            ]
         },
         {
             "type": "java",
@@ -65,7 +98,9 @@
             "request": "launch",
             "mainClass": "org.eth.lectures.week3.RunMatsimUtils",
             "projectName": "demo",
-            "args": [""]
+            "args": [
+                ""
+            ]
         }
     ]
 }

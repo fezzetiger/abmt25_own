@@ -1,4 +1,4 @@
-package org.eth.week5.exercises.example;
+package org.eth.lectures.week5;
 
 import org.matsim.api.core.v01.Scenario;
 import org.matsim.core.config.Config;
