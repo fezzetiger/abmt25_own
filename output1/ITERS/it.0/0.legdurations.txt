@@ -1,0 +1,21 @@
+pattern	0+	5+	10+	15+	20+	25+	30+	35+	40+	45+	50+	55+	60+
+car interaction---car interaction	5890	5933	2666	1311	823	664	246	58	45	62	35	24	649
+car interaction---home	82	78	15	38	73	76	47	0	0	0	0	0	0
+car interaction---secondary	206	46	36	29	31	13	15	0	0	2	0	0	0
+car interaction---work	9139	3614	1912	1900	415	252	336	0	0	29	20	0	0
+home---car interaction	19960	14042	11714	6795	4469	4525	1995	756	524	347	482	129	20
+home---pt interaction	1277	4437	2797	2635	1628	1201	776	529	336	112	144	24	7
+home---secondary	5	32	92	149	151	145	116	126	101	52	41	28	37
+home---work	7	41	108	144	219	188	187	132	106	99	47	59	37
+pt interaction---home	2	6	3	5	5	0	0	0	0	0	0	0	0
+pt interaction---pt interaction	1450	1877	391	97	31	24	2	0	0	16	4	10	446
+pt interaction---secondary	48	60	44	32	60	44	9	1	1	2	0	0	0
+pt interaction---work	512	800	493	455	565	366	62	3	0	2	1	0	0
+secondary---car interaction	206	46	36	29	31	13	15	0	0	2	0	0	0
+secondary---home	5	32	86	137	136	137	109	116	92	50	37	19	27
+secondary---pt interaction	79	76	58	39	67	54	12	2	1	3	1	0	0
+work---car interaction	9139	3614	1910	1900	415	252	336	0	0	29	20	0	0
+work---home	7	41	106	143	219	177	177	132	109	99	38	59	23
+work---pt interaction	533	792	498	424	627	343	65	2	0	3	1	0	0
+
+average leg duration: 874.7899957470474 seconds = 00:14:34

@@ -1,0 +1,20 @@
+2025-10-24T10:35:50,932  WARN XY2LinksForFacilities:51 There is no link for at least a facility. Assigning links for such facilities from coords.
+2025-10-24T10:35:50,932  WARN XY2LinksForFacilities:52  This message given only once.
+2025-10-24T10:35:50,969  WARN PrepareForSimImpl:266 'usePersonIdForMissingVehicleId' is deprecated. It will be removed soon. Use
+2025-10-24T10:35:50,969  WARN PrepareForSimImpl:267 		config.qsim().setUsePersonIdForMissingVehicleId( false );
+2025-10-24T10:35:50,969  WARN PrepareForSimImpl:268 in code, and 
+2025-10-24T10:35:50,969  WARN PrepareForSimImpl:269 	<module name="qsim" >
+2025-10-24T10:35:50,969  WARN PrepareForSimImpl:270 		<param name="usePersonIdForMissingVehicleId" value="true" />
+2025-10-24T10:35:50,969  WARN PrepareForSimImpl:271 in the config xml.
+2025-10-24T10:36:02,406  WARN ObjectAttributesConverter:96 No AttributeConverter found for class org.matsim.api.core.v01.Id$IdImpl. Not all attribute values can be converted.
+2025-10-24T10:36:02,406  WARN ObjectAttributesConverter:96 No AttributeConverter found for class org.matsim.api.core.v01.Id$IdImpl. Not all attribute values can be converted.
+2025-10-24T10:36:05,365  WARN ExpBetaPlanChanger:102 Would make sense to revise this once more.  See comments in code.  kai, nov08
+2025-10-24T10:36:17,725  WARN CharyparNagelActivityScoring:271 The first and the last activity do not have the same type. 
+2025-10-24T10:36:17,725  WARN CharyparNagelActivityScoring:272 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2025-10-24T10:36:17,725  WARN CharyparNagelActivityScoring:273 Because of the nonlinear function, this is not the same as scoring from start to end.
+2025-10-24T10:36:17,726  WARN CharyparNagelActivityScoring:274 first activity: act [type=home][coord=null][linkId=10_1][startTime=undefined][endTime=08:00:00][duration=undefined][facilityId=null]
+2025-10-24T10:36:17,726  WARN CharyparNagelActivityScoring:275 last activity: act [type=work][coord=null][linkId=41_2][startTime=08:54:30][endTime=undefined][duration=undefined][facilityId=null]
+2025-10-24T10:36:17,726  WARN CharyparNagelActivityScoring:276 This may also happen when plans are not completed when the simulation ends.
+2025-10-24T10:36:17,726  WARN CharyparNagelActivityScoring:278 Additional warnings of this type are suppressed.
+2025-10-24T10:36:17,817  WARN ObjectAttributesConverter:96 No AttributeConverter found for class org.matsim.api.core.v01.Id$IdImpl. Not all attribute values can be converted.
+2025-10-24T10:36:17,817  WARN ObjectAttributesConverter:96 No AttributeConverter found for class org.matsim.api.core.v01.Id$IdImpl. Not all attribute values can be converted.
