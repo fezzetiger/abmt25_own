@@ -1,0 +1,13 @@
+2025-10-07T13:28:33,100  WARN XY2LinksForFacilities:51 There is no link for at least a facility. Assigning links for such facilities from coords.
+2025-10-07T13:28:33,100  WARN XY2LinksForFacilities:52  This message given only once.
+2025-10-07T13:28:33,152  WARN PrepareForSimImpl:266 'usePersonIdForMissingVehicleId' is deprecated. It will be removed soon. Use
+2025-10-07T13:28:33,153  WARN PrepareForSimImpl:267 		config.qsim().setUsePersonIdForMissingVehicleId( false );
+2025-10-07T13:28:33,153  WARN PrepareForSimImpl:268 in code, and 
+2025-10-07T13:28:33,153  WARN PrepareForSimImpl:269 	<module name="qsim" >
+2025-10-07T13:28:33,153  WARN PrepareForSimImpl:270 		<param name="usePersonIdForMissingVehicleId" value="true" />
+2025-10-07T13:28:33,155  WARN PrepareForSimImpl:271 in the config xml.
+2025-10-07T13:28:47,511  WARN ObjectAttributesConverter:96 No AttributeConverter found for class org.matsim.api.core.v01.Id$IdImpl. Not all attribute values can be converted.
+2025-10-07T13:28:47,511  WARN ObjectAttributesConverter:96 No AttributeConverter found for class org.matsim.api.core.v01.Id$IdImpl. Not all attribute values can be converted.
+2025-10-07T13:28:51,213  WARN ExpBetaPlanChanger:102 Would make sense to revise this once more.  See comments in code.  kai, nov08
+2025-10-07T13:29:04,055  WARN ObjectAttributesConverter:96 No AttributeConverter found for class org.matsim.api.core.v01.Id$IdImpl. Not all attribute values can be converted.
+2025-10-07T13:29:04,055  WARN ObjectAttributesConverter:96 No AttributeConverter found for class org.matsim.api.core.v01.Id$IdImpl. Not all attribute values can be converted.
